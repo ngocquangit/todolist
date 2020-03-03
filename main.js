@@ -48,4 +48,18 @@ class item
         container.removeChild(item);
     }
 }
-new item("Quang đẹp trai");
+function add()
+{
+    if(inputValue.value != "")
+    {
+        new item(inputValue.value);
+        inputValue.value ="";
+    }
+}
+addButton.addEventListener('click',add);
+window.addEventListener('keydown',(e) => 
+{
+    if (e.which == 13) {
+        add();
+    }
+});
