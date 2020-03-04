@@ -134,6 +134,21 @@ h1{
 {
    transform: scale(1.1);
 }
+.doneJob
+{
+    border-bottom: 4px solid #138e1d !important ;
+}
+@media only screen and (max-width: 480px){
+    .input_div .input
+{
+    width: 27rem;
+    margin: 0 .5rem 0 -0.5rem
+}
+textarea
+{
+    height: 5.5rem;
+}
+  }
 
 /* responsive input 
 height: 5rem;

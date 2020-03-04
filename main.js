@@ -38,6 +38,9 @@ class item
 
         editButton.addEventListener('click',() => this.edit(input));
         removeButton.addEventListener('click',() => this.remove(itemBox));
+        doneButton.addEventListener('click',() =>{
+            itemBox.classList.add('doneJob');
+        });
     }
     edit(input)
     {
